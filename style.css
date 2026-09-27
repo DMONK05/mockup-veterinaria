@@ -1,0 +1,114 @@
+/* Estilos Básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Barra SSL */
+.top-bar {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.btn-urgencia {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 50px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #0f2b48;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Servicios */
+.servicios {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.servicios h2 {
+    margin-bottom: 40px;
+    color: #0f2b48;
+}
+
+.grid-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+/* Footer */
+footer {
+    background-color: #0f2b48;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
